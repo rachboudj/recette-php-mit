@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Spectral', serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #000;
+}
+
+/* ---------- Utilitaire ---------- */
+.text_center {
+    text-align: center;
+}
+
+.text-color {
+    color: #ffa500;
+}
+
+.bg-orange {
+    background-color: #ffa500;
+}
+
+.bg-beige {
+    background-color: #fdf2e2;
+}
+
+.bg-blue {
+    background-color: #49acac;
+}
+
+.container {
+    padding: 0 10%;
+}
+
+.py_20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container-text {
+    padding: 1em 1em;
+}
+/* ---------- Fin des utilitaires ---------- */
+
+
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+}
+
+header .logo {
+    width: 40%;
+    display: flex;
+    color: #fff;
+}
+
+header nav {
+    width: 40%;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    text-transform: lowercase;
+    color: #fff;
+}
+
+h1 {
+    margin-top: 2em;
+    text-align: center;
+}
+
+#recette-sucre {
+    margin-top: 2em;
+}
+
+.container-card {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 1em;
+    background-color: red;
+}
+
+.container-card .card {
+    max-width: 30%;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.container-card .card img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+#recette-salee {
+    margin-top: 2em;
+}
+
+/* Ajouter plat */
+.block {
+    display: block;
+
+}
